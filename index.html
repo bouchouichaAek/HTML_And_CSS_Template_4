@@ -1,0 +1,2247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elzero Admin</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- Start SideBar -->
+    <div class="sidebar">
+        <div class="sidetitle">
+            <h3>Elzero</h3>
+        </div>
+        <div class="navbar">
+            <ul class="nav">
+                <li class="active">
+                    <i class="fa-regular fa-chart-bar fa-fw"></i><a href="">Dashboard</a>
+                </li>
+                <li><i class="fa-solid fa-gear fa-fw"></i><a href="">Settings</a></li>
+                <li>
+                    <i class="fa-regular fa-user fa-fw"></i><a href="">Profile</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-diagram-project fa-fw"></i><a href="">Projects</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-graduation-cap fa-fw"></i><a href="">Courses</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-circle-user fa-fw"></i><a href="">Friends</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-file fa-fw"></i><a href="">Files</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-credit-card fa-fw"></i><a href="">Plans</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End SideBar -->
+
+
+    <div class="containar">
+        <!-- Start Header -->
+        <div class="head">
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Type A Keyword">
+            </div>
+            <div class="admin">
+                <span><i class="fa-regular fa-bell fa-lg"></i></span>
+                <img src="image/avatar.png" alt="">
+            </div>
+        </div>
+        <!-- End Header -->
+
+        <div class="content">
+
+            <!-- Start Dashboard -->
+            <div class="section show dashboard " data-title="Dashboard" id="dashboard">
+                <h1 class="section-title">Dashboard</h1>
+                <div class="container">
+                    <div class="box welcom">
+                        <div class="welcom-head">
+                            <div class="welcom-head-text">
+                                <h2>Welcome</h2>
+                                <p>Elzero</p>
+                            </div>
+                            <div class="welcom-img">
+                                <img src="image/welcome.png" alt="welcom-img">
+                            </div>
+                        </div>
+                        <div class="welcom-content">
+                            <img src="image/avatar.png" alt="welcom-avatar">
+                            <div class="welcom-info">
+                                <div>
+                                    Osama Elzero
+                                    <span>Developer</span>
+                                </div>
+                                <div>
+                                    80
+                                    <span>Projects</span>
+                                </div>
+                                <div>
+                                    $8500
+                                    <span>Earned</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="btn">Profile</a>
+                    </div>
+                    <div class="box quick-draft">
+                        <h2>Quick Draft</h2>
+                        <p>Write A Draft For Your Ideas</p>
+                        <form action="">
+                            <input type="text" value="" placeholder="title">
+                            <textarea name="" id="" placeholder="Your Thought" rows="30"></textarea>
+                            <input type="submit" value="Save" class="save">
+                        </form>
+                    </div>
+                    <div class="box yearly-targets ">
+                        <h2>Yearly Targets</h2>
+                        <p>Targets Of The Year</p>
+                        <div class="targets">
+                            <div class="target">
+                                <div class="icon">
+                                    <i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+                                </div>
+                                <div class="info">
+                                    <span>Money</span>
+                                    <h4>$20.000</h4>
+                                    <div class="progress">
+                                        <span class="prog" data-prograss="80%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="target">
+                                <div class="icon">
+                                    <i class="fa-solid fa-code fa-lg c-orange"></i>
+                                </div>
+                                <div class="info">
+                                    <span>Projects</span>
+                                    <h4>24</h4>
+                                    <div class="progress">
+                                        <span class="prog" data-prograss="55%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="target">
+                                <div class="icon">
+                                    <i class="fa-solid fa-user fa-lg c-green"></i>
+                                </div>
+                                <div class="info">
+                                    <span>Team</span>
+                                    <h4>12</h4>
+                                    <div class="progress">
+                                        <span class="prog" data-prograss="75%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box tickets-statistics">
+                        <h2>Tickets Statistics</h2>
+                        <p>Everything About Support Tickets</p>
+                        <div class="tickets">
+                            <div class="ticket">
+                                <i class="fa-regular fa-rectangle-list fa-2x mb-10"
+                                    style="color: var(--orange-color)"></i>
+                                <span>2500</span>
+                                <p>Total</p>
+                            </div>
+                            <div class="ticket">
+                                <i class="fa-solid fa-spinner fa-2x mb-10" style="color: var(--blue-color)"></i>
+                                <span>500</span>
+                                <p>Pending</p>
+                            </div>
+                            <div class="ticket">
+                                <i class="fa-regular fa-circle-check fa-2x mb-10" style="color: var(--green-color)"></i>
+                                <span>1900</span>
+                                <p>Closed</p>
+                            </div>
+                            <div class="ticket">
+                                <i class="fa-regular fa-rectangle-xmark fa-2x mb-10"
+                                    style="color: var(--red-color)"></i>
+                                <span>100</span>
+                                <p>Deleted</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box latest-news">
+                        <h2>Latest News</h2>
+                        <div class="news">
+                            <div class="new">
+                                <div class="image-news">
+                                    <img src="image/news-01.png" alt="News 01">
+                                </div>
+                                <div class="text-news">
+                                    <h3>Created SASS Section</h3>
+                                    <p>New SASS Examples & Tutorials</p>
+                                </div>
+                                <div class="date-news">
+                                    <p>3 Days Ago</p>
+                                </div>
+                            </div>
+                            <div class="new">
+                                <div class="image-news">
+                                    <img src="image/news-02.png" alt="News 01">
+                                </div>
+                                <div class="text-news">
+                                    <h3>Changed The Design</h3>
+                                    <p>A Brand New Website Design</p>
+                                </div>
+                                <div class="date-news">
+                                    <p>5 Days Ago</p>
+                                </div>
+                            </div>
+                            <div class="new">
+                                <div class="image-news">
+                                    <img src="image/news-03.png" alt="News 01">
+                                </div>
+                                <div class="text-news">
+                                    <h3>Team Increased</h3>
+                                    <p>7 Developers Joined The Team</p>
+                                </div>
+                                <div class="date-news">
+                                    <p>3 Days Ago</p>
+                                </div>
+                            </div>
+                            <div class="new">
+                                <div class="image-news">
+                                    <img src="image/news-04.png" alt="News 01">
+                                </div>
+                                <div class="text-news">
+                                    <h3>Added Payment Gateway</h3>
+                                    <p>Many New Payment Gateways Added</p>
+                                </div>
+                                <div class="date-news">
+                                    <p>9 Days Ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box latest-tasks">
+                        <h2>Latest Tasks</h2>
+                        <div class="tasks">
+                            <div class="task">
+                                <div class="text-task">
+                                    <h3>Record One New Video</h3>
+                                    <p>Record Python Create Exe Project</p>
+                                </div>
+                                <div class="delete-task">
+                                    <i class="fa-regular fa-trash-can delete"></i>
+                                </div>
+                            </div>
+                            <div class="task">
+                                <div class="text-task">
+                                    <h3>Write Article</h3>
+                                    <p>Write Low Level vs High Level Languages</p>
+                                </div>
+                                <div class="delete-task">
+                                    <i class="fa-regular fa-trash-can delete"></i>
+                                </div>
+                            </div>
+                            <div class="task">
+                                <div class="text-task">
+                                    <h3>Finish Project</h3>
+                                    <p>Publish Academy Programming Project</p>
+                                </div>
+                                <div class="delete-task">
+                                    <i class="fa-regular fa-trash-can delete"></i>
+                                </div>
+                            </div>
+                            <div class="task done">
+                                <div class="text-task">
+                                    <h3>Attend The Meeting</h3>
+                                    <p>Attend The Project Business Analysis Meeting</p>
+                                </div>
+                                <div class="delete-task">
+                                    <i class="fa-regular fa-trash-can delete"></i>
+                                </div>
+                            </div>
+                            <div class="task">
+                                <div class="text-task">
+                                    <h3>Finish Lesson</h3>
+                                    <p>Finish Teaching Flex Box</p>
+                                </div>
+                                <div class="delete-task">
+                                    <i class="fa-regular fa-trash-can delete"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box top-search-items">
+                        <h2>Top Search Items</h2>
+                        <div class="items">
+                            <div class="item">
+                                <div class="item-name">
+                                    <p>Keyword</p>
+                                </div>
+                                <div class="item-count">
+                                    <p class="count">Search Count</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">
+                                    <p>Programming</p>
+                                </div>
+                                <div class="item-count">
+                                    <p class="count">220</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">
+                                    <p>JavaScript</p>
+                                </div>
+                                <div class="item-count">
+                                    <p class="count">180</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">
+                                    <p>PHP</p>
+                                </div>
+                                <div class="item-count">
+                                    <p class="count">160</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">
+                                    <p>Code</p>
+                                </div>
+                                <div class="item-count">
+                                    <p class="count">145</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">
+                                    <p>Design</p>
+                                </div>
+                                <div class="item-count">
+                                    <p class="count">110</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">
+                                    <p>Logic</p>
+                                </div>
+                                <div class="item-count">
+                                    <p class="count">90</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box latest-uploads">
+                        <h2>Latest Uploads</h2>
+                        <div class="uploads">
+                            <div class="upload">
+                                <div class="file-type">
+                                    <img src="image/pdf.svg" alt="" srcset="">
+                                </div>
+                                <div class="file-info">
+                                    <p class="file-name">my-file.pdf</p>
+                                    <p class="file-uploader">Elzero</p>
+                                </div>
+                                <div class="file-size">
+                                    <p class="size">2.9mb</p>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <div class="file-type">
+                                    <img src="image/avi.svg" alt="" srcset="">
+                                </div>
+                                <div class="file-info">
+                                    <p class="file-name">My-Video-File.avi</p>
+                                    <p class="file-uploader">Admin</p>
+                                </div>
+                                <div class="file-size">
+                                    <p class="size">4.9mb</p>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <div class="file-type">
+                                    <img src="image/psd.svg" alt="" srcset="">
+                                </div>
+                                <div class="file-info">
+                                    <p class="file-name">My-Psd-File.psd</p>
+                                    <p class="file-uploader">Osama</p>
+                                </div>
+                                <div class="file-size">
+                                    <p class="size">4.5mb</p>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <div class="file-type">
+                                    <img src="image/zip.svg" alt="" srcset="">
+                                </div>
+                                <div class="file-info">
+                                    <p class="file-name">My-Zip-File.zip</p>
+                                    <p class="file-uploader">Elzero</p>
+                                </div>
+                                <div class="file-size">
+                                    <p class="size">8.9mb</p>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <div class="file-type">
+                                    <img src="image/dll.svg" alt="" srcset="">
+                                </div>
+                                <div class="file-info">
+                                    <p class="file-name">My-DLL-File.ddl</p>
+                                    <p class="file-uploader">Admin</p>
+                                </div>
+                                <div class="file-size">
+                                    <p class="size">4.9mb</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box last-project-progress">
+                        <h2>Last Project Progress</h2>
+                        <ul>
+                            <li class="done">Got The Project</li>
+                            <li class="done">Started The Project</li>
+                            <li class="done">The Project About To Finish</li>
+                            <li class="current">Test The Project</li>
+                            <li>Finish The Project & Get Money</li>
+                        </ul>
+                    </div>
+                    <div class="box reminders">
+                        <h2>Reminders</h2>
+                        <ul>
+                            <li style="border-left: 2px solid var(--blue-color); ">
+                                <h3>Check My Tasks List</h3>
+                                <p>28/09/2022 - 12:00am</p>
+                            </li>
+                            <li style="border-left: 2px solid var(--green-color)">
+                                <h3>Check My Projects</h3>
+                                <p>26/10/2022 - 12:00am</p>
+                            </li>
+                            <li style="border-left: 2px solid var(--orange-color)">
+                                <h3>Call All My Clients</h3>
+                                <p>05/11/2022 - 12:00am</p>
+                            </li>
+                            <li style="border-left: 2px solid var(--red-color)">
+                                <h3>Finish The Development Workshop</h3>
+                                <p>20/12/2022 - 12:00am</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box latest-post">
+                        <h2>Latest Post</h2>
+                        <div class="acount">
+                            <img class="acount-img" src="image/avatar.png" alt="">
+                            <div class="acount-info">
+                                <h3>Osama Elzero</h3>
+                                <p>About 3 Hours Ago</p>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <p>You Can Fool All Of The People Some Of The Time, And Some Of The People All Of The
+                                Time, But You Can't Fool All Of The People All Of The Time.</p>
+                        </div>
+                        <div class="like-coments">
+                            <span><i class="fa-regular fa-heart"></i>1.8K</span>
+                            <span><i class="fa-regular fa-comments"></i>500</span>
+                        </div>
+                    </div>
+                    <div class="box social-media-stats">
+                        <h2>Social Media Stats</h2>
+                        <div class="social-media">
+                            <div class="twitter">
+                                <i class="fa-brands fa-twitter fa-2x c-white h-full center-flex"></i>
+                                <span>90K Followers</span>
+                                <a href="#">Follow</a>
+                            </div>
+                            <div class="facebook">
+                                <i class="fa-brands fa-facebook-f fa-2x c-white h-full center-flex"></i>
+                                <span>2M Like</span>
+                                <a href="#">Like</a>
+                            </div>
+                            <div class="youtube">
+                                <i class="fa-brands fa-youtube fa-2x c-white h-full center-flex"></i>
+                                <span>1M Subs</span>
+                                <a class="" href="#">Subscribe</a>
+                            </div>
+                            <div class="linkedin">
+                                <i class="fa-brands fa-linkedin fa-2x c-white h-full center-flex"></i>
+                                <span>70K Followers</span>
+                                <a class="" href="#">Follow</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box projects">
+                        <h2>Projects</h2>
+                        <div class="table-r">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td>Name</td>
+                                        <td>Finish Date </td>
+                                        <td>Client</td>
+                                        <td>Price</td>
+                                        <td>Team</td>
+                                        <td>Status</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ministry Wikipedia</td>
+                                        <td>10 May 2022</td>
+                                        <td>Ministry</td>
+                                        <td>$5300</td>
+                                        <td>
+                                            <img src="image/team-01.png" alt="">
+                                            <img src="image/team-02.png" alt="">
+                                            <img src="image/team-03.png" alt="">
+                                            <img src="image/team-05.png" alt="">
+                                        </td>
+                                        <td><span class="pending">Pending</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Elzero Shop</td>
+                                        <td>12 Oct 2021</td>
+                                        <td>Elzero Company</td>
+                                        <td>$$1500</td>
+                                        <td>
+                                            <img src="image/team-01.png" alt="">
+                                            <img src="image/team-02.png" alt="">
+                                            <img src="image/team-05.png" alt="">
+                                        </td>
+                                        <td><span class="progress">In Progress</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bouba App</td>
+                                        <td>05 Sep 2021</td>
+                                        <td>Bouba</td>
+                                        <td>$$800</td>
+                                        <td>
+                                            <img src="image/team-01.png" alt="">
+                                            <img src="image/team-03.png" alt="">
+                                        </td>
+                                        <td><span class="completed">Completed</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mahmoud Website</td>
+                                        <td>22 May 2021</td>
+                                        <td>Mahmoud</td>
+                                        <td>$600</td>
+                                        <td>
+                                            <img src="image/team-01.png" alt="">
+                                            <img src="image/team-02.png" alt="">
+                                        </td>
+                                        <td><span class="completed">Completed</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sayed Website</td>
+                                        <td>24 May 2021</td>
+                                        <td>Sayed</td>
+                                        <td>$300</td>
+                                        <td>
+                                            <img src="image/team-01.png" alt="">
+                                            <img src="image/team-02.png" alt="">
+                                        </td>
+                                        <td><span class="rejected">Rejected</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Arena Application</td>
+                                        <td>01 Mar 2021</td>
+                                        <td>Arena Company</td>
+                                        <td>$2600</td>
+                                        <td>
+                                            <img src="image/team-01.png" alt="">
+                                            <img src="image/team-02.png" alt="">
+                                            <img src="image/team-03.png" alt="">
+                                            <img src="image/team-04.png" alt="">
+                                        </td>
+                                        <td><span class="completed">Completed</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Dashboard -->
+
+            <!-- Start Settings -->
+            <div class="section settings" data-title="Settings" id="settings">
+                <h1 class="section-title">Settings</h1>
+                <div class="container">
+                    <div class="box site-control">
+                        <h2>Site Control</h2>
+                        <p>Control The Website If There Is Maintenance</p>
+                        <div class="website-control">
+                            <div class="text">
+                                <span>Website Control</span>
+                                <p>Open/Close Website And Type The Reason</p>
+                            </div>
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                        <textarea placeholder="Close Message Content" spellcheck="false"></textarea>
+                    </div>
+                    <div class="box general-info">
+                        <h2>General Info</h2>
+                        <p>General Information About Your Account</p>
+                        <div class="first-name">
+                            <label for="first">First Name</label>
+                            <input type="text" name="" id="first" placeholder="First Name">
+                        </div>
+                        <div class="last-name">
+                            <label for="last">Last Name</label>
+                            <input type="text" name="" id="last" placeholder="Last Name">
+                        </div>
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input type="email" name="" id="email" value="o@nn.sa" disabled>
+                            <a class="" href="#">Change</a>
+                        </div>
+                    </div>
+
+                    <div class="box security-info">
+                        <h2>Security Info</h2>
+                        <p>Security Information About Your Account</p>
+                        <div class="sec-box password">
+                            <div class="password-text">
+                                <h3>Password</h3>
+                                <p>Last Change On 25/10/2021</p>
+                            </div>
+                            <a class="password-change" href="">Change</a>
+                        </div>
+                        <div class="sec-box authentication">
+                            <div class="authe-text">
+                                <h3>Two-Factor Authentication</h3>
+                                <p>Enable/Disable The Feature</p>
+                            </div>
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                        <div class="sec-box check-login">
+                            <div class="check-login-text">
+                                <h3>Devices</h3>
+                                <p>Check The Login Devices List</p>
+                            </div>
+                            <a class="devices" href="">Devices</a>
+                        </div>
+                    </div>
+
+                    <div class="box social-info">
+                        <h2>Social Info</h2>
+                        <p>Social Media Information</p>
+                        <div class="social-box twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                            <input type="text" name="" id="" placeholder="Twitter Username">
+                        </div>
+                        <div class="social-box facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <input type="text" name="" id="" placeholder="Facebook Username">
+
+                        </div>
+                        <div class="social-box linkedin">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <input type="text" name="" id="" placeholder="Linkedin Username">
+                        </div>
+                        <div class="social-box youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                            <input type="text" name="" id="" placeholder="Youtube Username">
+                        </div>
+                    </div>
+
+                    <div class="box widgets-control">
+                        <h2>Widgets Control</h2>
+                        <p>Show/Hide Widgets</p>
+                        <div class="contrle-checkbox">
+                            <label style="cursor: pointer;">
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch-simple">Quick Draft</div>
+                            </label>
+                        </div>
+                        <div class="contrle-checkbox">
+                            <label style="cursor: pointer;">
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch-simple">Yearly Targets</div>
+                            </label>
+                        </div>
+                        <div class="contrle-checkbox">
+                            <label style="cursor: pointer;">
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch-simple">Tickets Statistics</div>
+                            </label>
+                        </div>
+                        <div class="contrle-checkbox">
+                            <label style="cursor: pointer;">
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch-simple">Latest News</div>
+                            </label>
+                        </div>
+                        <div class="contrle-checkbox">
+                            <label style="cursor: pointer;">
+                                <input class="toggle-checkbox" type="checkbox">
+                                <div class="toggle-switch-simple">Latest Tasks</div>
+                            </label>
+                        </div>
+                        <div class="contrle-checkbox">
+                            <label style="cursor: pointer;">
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch-simple">Top Search Items</div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="box backup-manager">
+                        <h2>Backup Manager</h2>
+                        <p>Control Backup Time And Location</p>
+                        <div class="date">
+                            <label>
+                                <input class="radio-button" type="radio" name="time" id="daily" checked>
+                                <div class="radio">Daily</div>
+                            </label>
+                        </div>
+                        <div class="date">
+                            <label>
+                                <input class="radio-button" type="radio" name="time" id="weekly">
+                                <div class="radio">Weekly</div>
+                            </label>
+                        </div>
+                        <div class="date">
+                            <label>
+                                <input class="radio-button" type="radio" name="time" id="monthly">
+                                <div class="radio">Monthly</div>
+                            </label>
+                        </div>
+                        <div class="servers">
+                            <input type="radio" name="servers" id="server-one">
+                            <div class="server">
+                                <label for="server-one">
+                                    <i class="fa-solid fa-server d-block mb-10"></i>
+                                    Megaman
+                                </label>
+                            </div>
+                            <input type="radio" name="servers" id="server-two" checked>
+                            <div class="server">
+                                <label for="server-two">
+                                    <i class="fa-solid fa-server d-block mb-10"></i>
+                                    Zero
+                                </label>
+                            </div>
+                            <input type="radio" name="servers" id="server-three">
+                            <div class="server">
+                                <label for="server-three">
+                                    <i class="fa-solid fa-server d-block mb-10"></i>
+                                    Sigma
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Settings -->
+
+            <!-- Start Profile -->
+            <div class="section profile" data-title="Profile" id="profile">
+                <h1 class="section-title">Profile</h1>
+                <div class="container">
+                    <div class="box overview">
+                        <div class="avatar">
+                            <img src="image/avatar.png" alt="">
+                            <h3>Osama Elzero</h3>
+                            <p>Level 20</p>
+                            <div class="level">
+                                <span></span>
+                            </div>
+                            <div class="rating">
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                            </div>
+                            <p>550 Rating</p>
+                        </div>
+                        <div class="info">
+                            <div class="box">
+                                <h4>General Information</h4>
+                                <div class="min-box">
+                                    <span>Full Name</span>
+                                    <span>Osama Mohamed</span>
+                                </div>
+                                <div class="min-box">
+                                    <span>Gender</span>
+                                    <span>Male</span>
+                                </div>
+                                <div class="min-box">
+                                    <span>Country</span>
+                                    <span>Egypt</span>
+                                </div>
+                                <div class="min-box">
+                                    <label>
+                                        <input class="toggle-checkbox" type="checkbox" checked>
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <h4>Personal Information</h4>
+                                <div class="min-box">
+                                    <span>Email :</span>
+                                    <span>o@nn.sa</span>
+                                </div>
+                                <div class="min-box">
+                                    <span>Phone:</span>
+                                    <span>019123456789</span>
+                                </div>
+                                <div class="min-box">
+                                    <span>Date Of Birth:</span>
+                                    <span>25/10/1982</span>
+                                </div>
+                                <div class="min-box">
+                                    <label>
+                                        <input class="toggle-checkbox" type="checkbox">
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <h4>Job Information</h4>
+                                <div class="min-box">
+                                    <span>Title:</span>
+                                    <span>Full Stack Developer</span>
+                                </div>
+                                <div class="min-box">
+                                    <span>Programming Language:</span>
+                                    <span>Python</span>
+                                </div>
+                                <div class="min-box">
+                                    <span>Years Of Experience:</span>
+                                    <span>15+</span>
+                                </div>
+                                <div class="min-box">
+                                    <label>
+                                        <input class="toggle-checkbox" type="checkbox" checked>
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <h4>Billing Information</h4>
+                                <div class="min-box">
+                                    <span>Payment Method :</span>
+                                    <span>Paypal</span>
+                                </div>
+                                <div class="min-box">
+                                    <span>Email:</span>
+                                    <span>email@website.com</span>
+                                </div>
+                                <div class="min-box">
+                                    <span>Subscription:</span>
+                                    <span>Monthly</span>
+                                </div>
+                                <div class="min-box">
+                                    <label>
+                                        <input class="toggle-checkbox" type="checkbox">
+                                        <div class="toggle-switch"></div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-data">
+                        <div class="box my-skils">
+                            <h2>My Skills</h2>
+                            <p>Complete Skills List</p>
+                            <ul>
+                                <li>
+                                    <span>HTML</span>
+                                    <span>Pugjs</span>
+                                    <span>HAML</span>
+                                </li>
+                                <li>
+                                    <span>CSS</span>
+                                    <span>SASS</span>
+                                    <span>Stylus</span>
+                                </li>
+                                <li>
+                                    <span>JavaScript</span>
+                                    <span>TypeScript</span>
+                                </li>
+                                <li>
+                                    <span>Vuejs</span>
+                                    <span>Reactjs</span>
+                                </li>
+                                <li>
+                                    <span>Jest</span>
+                                    <span>Jasmine</span>
+                                </li>
+                                <li>
+                                    <span>PHP</span>
+                                    <span>Laravel</span>
+                                </li>
+                                <li>
+                                    <span>Python</span>
+                                    <span>Django</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box latest-activities">
+                            <h2>Latest Activities</h2>
+                            <p>Latest Activities Done By The User</p>
+                            <div class="activity">
+                                <img src="image/activity-01.png" alt="">
+                                <div class="info">
+                                    <span>Store</span>
+                                    <span>Bought The Mastering Python Course</span>
+                                </div>
+                                <div class="date">
+                                    <span>18:10</span>
+                                    <span>Yesterday</span>
+                                </div>
+                            </div>
+                            <div class="activity">
+                                <img src="image/activity-02.png" alt="">
+                                <div class="info">
+                                    <span>Academy</span>
+                                    <span>Got The PHP Certificate</span>
+                                </div>
+                                <div class="date">
+                                    <span>16:05</span>
+                                    <span>Yesterday</span>
+                                </div>
+                            </div>
+                            <div class="activity">
+                                <img src="image/activity-03.png" alt="">
+                                <div class="info">
+                                    <span>Badges</span>
+                                    <span>Unlocked The 10 Skills Badge</span>
+                                </div>
+                                <div class="date">
+                                    <span>18:05</span>
+                                    <span>Yesterday</span>
+                                </div>
+                            </div>
+                            <div class="activity">
+                                <img src="image/activity-01.png" alt="">
+                                <div class="info">
+                                    <span>Store</span>
+                                    <span>Bought The Typescript Course</span>
+                                </div>
+                                <div class="date">
+                                    <span>12:05</span>
+                                    <span>Yesterday</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Profile -->
+
+            <!-- Start Projects -->
+            <div class="section projects" data-title="Projects" id="projects">
+                <h1 class="section-title">Projects</h1>
+                <div class="container">
+                    <div class="box elzero-dashboard">
+                        <h2>Elzero Dashboard</h2>
+                        <p>Elzero Dashboard Project Design And Programming And Hosting</p>
+                        <span class="project-date">15/10/2021</span>
+                        <div class="team">
+                            <a style="left: 0;" href="#"><img src="image/team-01.png" alt=""></a>
+                            <a style="left: 25px;" href="#"><img src="image/team-02.png" alt=""></a>
+                            <a style="left: 50px;" href="#"><img src="image/team-03.png" alt=""></a>
+                            <a style="left: 75px;" href="#"><img src="image/team-04.png" alt=""></a>
+                            <a style="left: 100px;" href="#"><img src="image/team-05.png" alt=""></a>
+                        </div>
+                        <div class="category">
+                            <span>Programming</span>
+                            <span>Design</span>
+                            <span>Hosting</span>
+                            <span>Marketing</span>
+                        </div>
+                        <div class="info">
+                            <div class="pro">
+                                <span style="background-color: var(--red-color); width: 50%;"></span>
+                            </div>
+                            <div class="price">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                2500
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box academy-portal">
+                        <h2>Academy Portal</h2>
+                        <p>Academy Portal Project Design And Programming</p>
+                        <span class="project-date">15/6/2022</span>
+                        <div class="team">
+                            <a style="left: 0;" href="#"><img src="image/team-01.png" alt=""></a>
+                            <a style="left: 25px;" href="#"><img src="image/team-02.png" alt=""></a>
+                            <a style="left: 50px;" href="#"><img src="image/team-03.png" alt=""></a>
+                        </div>
+                        <div class="category">
+                            <span>Programming</span>
+                            <span>Design</span>
+                        </div>
+                        <div class="info">
+                            <div class="pro">
+                                <span style="background-color: var(--green-color); width: 80%;"></span>
+                            </div>
+                            <div class="price">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                1800
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box chatting-application">
+                        <h2>Chatting Application</h2>
+                        <p>Chatting Application Project Design</p>
+                        <span class="project-date">15/6/2022</span>
+                        <div class="team">
+                            <a style="left: 0;" href="#"><img src="image/team-01.png" alt=""></a>
+                            <a style="left: 25px;" href="#"><img src="image/team-02.png" alt=""></a>
+                            <a style="left: 50px;" href="#"><img src="image/team-03.png" alt=""></a>
+                        </div>
+                        <div class="category">
+                            <span>Design</span>
+                        </div>
+                        <div class="info">
+                            <div class="pro">
+                                <span style="background-color: var(--blue-color); width: 100%;"></span>
+                            </div>
+                            <div class="price">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                950
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box ahmed-dashboard">
+                        <h2>Ahmed Dashboard</h2>
+                        <p>Ahmed Dashboard Project Design And Programming And Hosting</p>
+                        <span class="project-date">15/6/2022</span>
+                        <div class="team">
+                            <a style="left: 0;" href="#"><img src="image/team-01.png" alt=""></a>
+                            <a style="left: 25px;" href="#"><img src="image/team-02.png" alt=""></a>
+                            <a style="left: 50px;" href="#"><img src="image/team-03.png" alt=""></a>
+                            <a style="left: 75px;" href="#"><img src="image/team-04.png" alt=""></a>
+                        </div>
+                        <div class="category">
+                            <span>Programming</span>
+                            <span>Design</span>
+                            <span>Hosting</span>
+                            <span>Marketing</span>
+                        </div>
+                        <div class="info">
+                            <div class="pro">
+                                <span style="background-color: var(--green-color); width: 60%;"></span>
+                            </div>
+                            <div class="price">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                1700
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box ahmed-portal">
+                        <h2>Ahmed Portal</h2>
+                        <p>Ahmed Portal Project Design And Programming</p>
+                        <span class="project-date">15/10/2021</span>
+                        <div class="team">
+                            <a style="left: 0;" href="#"><img src="image/team-01.png" alt=""></a>
+                            <a style="left: 25px;" href="#"><img src="image/team-02.png" alt=""></a>
+                            <a style="left: 50px;" href="#"><img src="image/team-03.png" alt=""></a>
+                        </div>
+                        <div class="category">
+                            <span>Programming</span>
+                            <span>Design</span>
+                        </div>
+                        <div class="info">
+                            <div class="pro">
+                                <span style="background-color: var(--green-color); width: 70%;"></span>
+                            </div>
+                            <div class="price">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                850
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box mohamed-application">
+                        <h2>Mohamed Application</h2>
+                        <p>Mohamed Application Project Design</p>
+                        <span class="project-date">15/6/2022</span>
+                        <div class="team">
+                            <a style="left: 0;" href="#"><img src="image/team-01.png" alt=""></a>
+                            <a style="left: 25px;" href="#"><img src="image/team-02.png" alt=""></a>
+                            <a style="left: 50px;" href="#"><img src="image/team-03.png" alt=""></a>
+                        </div>
+                        <div class="category">
+                            <span>Programming</span>
+                            <span>Design</span>
+                        </div>
+                        <div class="info">
+                            <div class="pro">
+                                <span style="background-color: var(--red-color); width: 40%;"></span>
+                            </div>
+                            <div class="price">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                950
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box mohamed-dashboard">
+                        <h2>Mohamed Dashboard</h2>
+                        <p>Mohamed Dashboard Project Design And Programming And Hosting</p>
+                        <span class="project-date">15/6/2022</span>
+                        <div class="team">
+                            <a style="left: 0;" href="#"><img src="image/team-01.png" alt=""></a>
+                            <a style="left: 25px;" href="#"><img src="image/team-02.png" alt=""></a>
+                            <a style="left: 50px;" href="#"><img src="image/team-03.png" alt=""></a>
+                            <a style="left: 75px;" href="#"><img src="image/team-04.png" alt=""></a>
+                        </div>
+                        <div class="category">
+                            <span>Programming</span>
+                            <span>Design</span>
+                            <span>Hosting</span>
+                            <span>Marketing</span>
+                        </div>
+                        <div class="info">
+                            <div class="pro">
+                                <span style="background-color: var(--green-color); width: 65%;"></span>
+                            </div>
+                            <div class="price">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                1950
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box mohamed-portal">
+                        <h2>Mohamed Portal</h2>
+                        <p>Mohamed Portal Project Design And Programming</p>
+                        <span class="project-date">15/6/2022</span>
+                        <div class="team">
+                            <a style="left: 0;" href="#"><img src="image/team-01.png" alt=""></a>
+                            <a style="left: 25px;" href="#"><img src="image/team-02.png" alt=""></a>
+                            <a style="left: 50px;" href="#"><img src="image/team-03.png" alt=""></a>
+                        </div>
+                        <div class="category">
+                            <span>Programming</span>
+                            <span>Design</span>
+                        </div>
+                        <div class="info">
+                            <div class="pro">
+                                <span style="background-color: var(--green-color); width: 60%;"></span>
+                            </div>
+                            <div class="price">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                1650
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box ahmed-application">
+                        <h2>Ahmed Application</h2>
+                        <p>Ahmed Application Project Design</p>
+                        <span class="project-date">15/6/2022</span>
+                        <div class="team">
+                            <a style="left: 0;" href="#"><img src="image/team-01.png" alt=""></a>
+                            <a style="left: 25px;" href="#"><img src="image/team-02.png" alt=""></a>
+                            <a style="left: 50px;" href="#"><img src="image/team-03.png" alt=""></a>
+                        </div>
+                        <div class="category">
+                            <span>Design</span>
+                        </div>
+                        <div class="info">
+                            <div class="pro">
+                                <span style="background-color: var(--green-color); width: 90%;"></span>
+                            </div>
+                            <div class="price">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                950
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Projects -->
+
+            <!-- Start Courses -->
+            <div class="section courses" data-title="Courses" id="courses">
+                <h1 class="section-title">Courses</h1>
+                <div class="container-courses">
+                    <div class="course">
+                        <img class="cover" src="image/course-01.jpg" alt="">
+                        <img class="instructor" src="image/team-01.png" alt="">
+                        <div class="detail">
+                            <h4>Mastering Web Design</h4>
+                            <p>Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design
+                                Architecture</p>
+                        </div>
+                        <div class="info">
+                            <span>Course Info</span>
+                            <span>
+                                <i class="fa-regular fa-user"></i>
+                                950
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                165
+                            </span>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img class="cover" src="image/course-02.jpg" alt="">
+                        <img class="instructor" src="image/team-02.png" alt="">
+                        <div class="detail">
+                            <h4>Data Structure And Algorithms</h4>
+                            <p>Master The Art Of Data Strcuture And Famous Algorithms Like Sorting, Dividing And
+                                Conquering</p>
+                        </div>
+                        <div class="info">
+                            <span>Course Info</span>
+                            <span>
+                                <i class="fa-regular fa-user"></i>
+                                1150
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                210
+                            </span>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img class="cover" src="image/course-03.jpg" alt="">
+                        <img class="instructor" src="image/team-01.png" alt="">
+                        <div class="detail">
+                            <h4>Responsive Web Design</h4>
+                            <p>Mastering Responsive Web Design And Media Queries And Know Everything About Breakpoints
+                            </p>
+                        </div>
+                        <div class="info">
+                            <span>Course Info</span>
+                            <span>
+                                <i class="fa-regular fa-user"></i>
+                                650
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                90
+                            </span>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img class="cover" src="image/course-04.jpg" alt="">
+                        <img class="instructor" src="image/team-03.png" alt="">
+                        <div class="detail">
+                            <h4>Mastering Python</h4>
+                            <p>Mastering Python To Prepare For Data Science And AI And Automating Things in Your Life
+                            </p>
+                        </div>
+                        <div class="info">
+                            <span>Course Info</span>
+                            <span>
+                                <i class="fa-regular fa-user"></i>
+                                950
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                250
+                            </span>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img class="cover" src="image/course-05.jpg" alt="">
+                        <img class="instructor" src="image/team-03.png" alt="">
+                        <div class="detail">
+                            <h4>PHP Examples</h4>
+                            <p>PHP Tutorials And Examples And Practice On Web Application And Connecting With Databases
+                            </p>
+                        </div>
+                        <div class="info">
+                            <span>Course Info</span>
+                            <span>
+                                <i class="fa-regular fa-user"></i>
+                                850
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                150
+                            </span>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img class="cover" src="image/course-02.jpg" alt="">
+                        <img class="instructor" src="image/team-02.png" alt="">
+                        <div class="detail">
+                            <h4>Data Structure And Algorithms</h4>
+                            <p>Master The Art Of Data Strcuture And Famous Algorithms Like Sorting, Dividing And
+                                Conquering</p>
+                        </div>
+                        <div class="info">
+                            <span>Course Info</span>
+                            <span>
+                                <i class="fa-regular fa-user"></i>
+                                1150
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                210
+                            </span>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img class="cover" src="image/course-03.jpg" alt="">
+                        <img class="instructor" src="image/team-01.png" alt="">
+                        <div class="detail">
+                            <h4>Responsive Web Design</h4>
+                            <p>Mastering Responsive Web Design And Media Queries And Know Everything About Breakpoints
+                            </p>
+                        </div>
+                        <div class="info">
+                            <span>Course Info</span>
+                            <span>
+                                <i class="fa-regular fa-user"></i>
+                                650
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                90
+                            </span>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img class="cover" src="image/course-01.jpg" alt="">
+                        <img class="instructor" src="image/team-01.png" alt="">
+                        <div class="detail">
+                            <h4>Mastering Web Design</h4>
+                            <p>Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design
+                                Architecture</p>
+                        </div>
+                        <div class="info">
+                            <span>Course Info</span>
+                            <span>
+                                <i class="fa-regular fa-user"></i>
+                                950
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                165
+                            </span>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img class="cover" src="image/course-05.jpg" alt="">
+                        <img class="instructor" src="image/team-03.png" alt="">
+                        <div class="detail">
+                            <h4>PHP Examples</h4>
+                            <p>PHP Tutorials And Examples And Practice On Web Application And Connecting With Databases
+                            </p>
+                        </div>
+                        <div class="info">
+                            <span>Course Info</span>
+                            <span>
+                                <i class="fa-regular fa-user"></i>
+                                850
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                150
+                            </span>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img class="cover" src="image/course-04.jpg" alt="">
+                        <img class="instructor" src="image/team-03.png" alt="">
+                        <div class="detail">
+                            <h4>Mastering Python</h4>
+                            <p>Mastering Python To Prepare For Data Science And AI And Automating Things in Your Life
+                            </p>
+                        </div>
+                        <div class="info">
+                            <span>Course Info</span>
+                            <span>
+                                <i class="fa-regular fa-user"></i>
+                                950
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                250
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Courses -->
+
+            <!-- Start Friends -->
+            <div class="section friends" data-title="Friends" id="friends">
+                <h1 class="section-title">Friends</h1>
+                <div class="container-friend">
+                    <div class="friend">
+                        <div class="contact">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="avatar">
+                            <img src="image/friend-01.jpg" alt="">
+                            <h4>Ahmed Nasser</h4>
+                            <p>JavaScript Developer</p>
+                        </div>
+                        <div class="icons">
+                            <div class="icon">
+                                <i class="fa-regular fa-face-smile fa-fw"></i>
+                                <span> 99 Friend</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span> 15 Projects</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span> 25 Articles</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>Joined 02/10/2021</span>
+                            <div class="button">
+                                <a style="  background-color: var(--blue-color);" href="">Profile</a>
+                                <a style="background-color: var(--red-color);" href="">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="friend">
+                        <div class="contact">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="avatar">
+                            <img src="image/friend-02.jpg" alt="">
+                            <h4>Omar Fathy</h4>
+                            <p>Cloud Developer</p>
+                        </div>
+                        <div class="icons">
+                            <div class="icon">
+                                <i class="fa-regular fa-face-smile fa-fw"></i>
+                                <span> 30 Friend</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span> 11 Projects</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span> 12 Articles</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>Joined 02/08/2020</span>
+                            <div class="button">
+                                <a style="  background-color: var(--blue-color);" href="">Profile</a>
+                                <a style="background-color: var(--red-color);" href="">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="friend">
+                        <div class="contact">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="avatar">
+                            <img src="image/friend-03.jpg" alt="">
+                            <h4>Omar Ahmed</h4>
+                            <p>Mobile Developer</p>
+                        </div>
+                        <div class="icons">
+                            <div class="icon">
+                                <i class="fa-regular fa-face-smile fa-fw"></i>
+                                <span> 80 Friend</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span> 20 Projects</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span> 18 Articles</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>Joined 02/06/2020</span>
+                            <div class="button">
+                                <a style="  background-color: var(--blue-color);" href="">Profile</a>
+                                <a style="background-color: var(--red-color);" href="">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="friend">
+                        <div class="contact">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="avatar">
+                            <img src="image/friend-04.jpg" alt="">
+                            <h4>Shady Nabil</h4>
+                            <p>Back-End Developer</p>
+                        </div>
+                        <div class="icons">
+                            <div class="icon">
+                                <i class="fa-regular fa-face-smile fa-fw"></i>
+                                <span> 70 Friend</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span> 30 Projects</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span> 18 Articles</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>Joined 28/06/2020</span>
+                            <div class="button">
+                                <a style="  background-color: var(--blue-color);" href="">Profile</a>
+                                <a style="background-color: var(--red-color);" href="">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="friend">
+                        <div class="contact">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="avatar">
+                            <img src="image/friend-05.jpg" alt="">
+                            <h4>Mohamed Ibrahim</h4>
+                            <p>Algorithm Developer</p>
+                        </div>
+                        <div class="icons">
+                            <div class="icon">
+                                <i class="fa-regular fa-face-smile fa-fw"></i>
+                                <span> 80 Friend</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span> 30 Projects</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span> 18 Articles</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>Joined 28/08/2020</span>
+                            <div class="button">
+                                <a style="  background-color: var(--blue-color);" href="">Profile</a>
+                                <a style="background-color: var(--red-color);" href="">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="friend">
+                        <div class="contact">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="avatar">
+                            <img src="image/friend-04.jpg" alt="">
+                            <h4>Amr Hendawy</h4>
+                            <p>Back-End Developer</p>
+                        </div>
+                        <div class="icons">
+                            <div class="icon">
+                                <i class="fa-regular fa-face-smile fa-fw"></i>
+                                <span> 70 Friend</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span> 30 Projects</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span> 18 Articles</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>Joined 28/06/2020</span>
+                            <div class="button">
+                                <a style="  background-color: var(--blue-color);" href="">Profile</a>
+                                <a style="background-color: var(--red-color);" href="">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="friend">
+                        <div class="contact">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="avatar">
+                            <img src="image/friend-02.jpg" alt="">
+                            <h4>Mahmoud Adel</h4>
+                            <p>Cloud Developer</p>
+                        </div>
+                        <div class="icons">
+                            <div class="icon">
+                                <i class="fa-regular fa-face-smile fa-fw"></i>
+                                <span> 30 Friend</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span> 11 Projects</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span> 12 Articles</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>Joined 28/08/2020</span>
+                            <div class="button">
+                                <a style="  background-color: var(--blue-color);" href="">Profile</a>
+                                <a style="background-color: var(--red-color);" href="">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="friend">
+                        <div class="contact">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="avatar">
+                            <img src="image/friend-05.jpg" alt="">
+                            <h4>Ahmed Abuzaid</h4>
+                            <p>Content Creator</p>
+                        </div>
+                        <div class="icons">
+                            <div class="icon">
+                                <i class="fa-regular fa-face-smile fa-fw"></i>
+                                <span> 80 Friend</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span> 30 Projects</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span> 18 Articles</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>Joined 28/08/2020</span>
+                            <div class="button">
+                                <a style="  background-color: var(--blue-color);" href="">Profile</a>
+                                <a style="background-color: var(--red-color);" href="">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="friend">
+                        <div class="contact">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="avatar">
+                            <img src="image/friend-01.jpg" alt="">
+                            <h4>Gareeb Elshiekh</h4>
+                            <p>JavaScript Developer</p>
+                        </div>
+                        <div class="icons">
+                            <div class="icon">
+                                <i class="fa-regular fa-face-smile fa-fw"></i>
+                                <span> 90 Friend</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span> 15 Projects</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span> 25 Articles</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>Joined 02/10/2020</span>
+                            <div class="button">
+                                <a style="  background-color: var(--blue-color);" href="">Profile</a>
+                                <a style="background-color: var(--red-color);" href="">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="friend">
+                        <div class="contact">
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="avatar">
+                            <img src="image/friend-03.jpg" alt="">
+                            <h4>Hamza</h4>
+                            <p>Front-End Developer</p>
+                        </div>
+                        <div class="icons">
+                            <div class="icon">
+                                <i class="fa-regular fa-face-smile fa-fw"></i>
+                                <span> 80 Friend</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                                <span> 20 Projects</span>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-regular fa-newspaper fa-fw"></i>
+                                <span> 18 Articles</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <span>Joined 02/06/2020</span>
+                            <div class="button">
+                                <a style="  background-color: var(--blue-color);" href="">Profile</a>
+                                <a style="background-color: var(--red-color);" href="">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Friends -->
+
+            <!-- Start Files -->
+            <div class="section files" data-title="Files" id="files">
+                <h1 class="section-title">Files</h1>
+                <div class="container-files">
+                    <div class="files-content">
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/pdf.svg" alt="">
+                                <h4 class="file-title">my-file.pdf</h4>
+                                <p>Elzero</p>
+                            </div>
+                            <div class="info">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/avi.svg" alt="">
+                                <h4 class="file-title">my-file.avi</h4>
+                                <p>Admin</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>12.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/eps.svg" alt="">
+                                <h4 class="file-title">my-file.eps</h4>
+                                <p>Uploader</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>2.7MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/psd.svg" alt="">
+                                <h4 class="file-title">my-file.psd</h4>
+                                <p>Osama</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>15.1MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/dll.svg" alt="">
+                                <h4 class="file-title">my-file.dll</h4>
+                                <p>Coder</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/png.svg" alt="">
+                                <h4 class="file-title">my-file.png</h4>
+                                <p>Designer</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>1.1MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/dll.svg" alt="">
+                                <h4 class="file-title">my-file.dll</h4>
+                                <p>Coder</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/png.svg" alt="">
+                                <h4 class="file-title">my-file.png</h4>
+                                <p>Designer</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>1.1MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/psd.svg" alt="">
+                                <h4 class="file-title">my-file.psd</h4>
+                                <p>Osama</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>15.1MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/pdf.svg" alt="">
+                                <h4 class="file-title">my-file.pdf</h4>
+                                <p>Elzero</p>
+                            </div>
+                            <div class="info">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/avi.svg" alt="">
+                                <h4 class="file-title">my-file.avi</h4>
+                                <p>Admin</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>12.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/eps.svg" alt="">
+                                <h4 class="file-title">my-file.eps</h4>
+                                <p>Uploader</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>2.7MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/pdf.svg" alt="">
+                                <h4 class="file-title">my-file.pdf</h4>
+                                <p>Elzero</p>
+                            </div>
+                            <div class="info">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/avi.svg" alt="">
+                                <h4 class="file-title">my-file.avi</h4>
+                                <p>Admin</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>12.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/eps.svg" alt="">
+                                <h4 class="file-title">my-file.eps</h4>
+                                <p>Uploader</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>2.7MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/psd.svg" alt="">
+                                <h4 class="file-title">my-file.psd</h4>
+                                <p>Osama</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>15.1MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/dll.svg" alt="">
+                                <h4 class="file-title">my-file.dll</h4>
+                                <p>Coder</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/png.svg" alt="">
+                                <h4 class="file-title">my-file.png</h4>
+                                <p>Designer</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>1.1MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/dll.svg" alt="">
+                                <h4 class="file-title">my-file.dll</h4>
+                                <p>Coder</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/png.svg" alt="">
+                                <h4 class="file-title">my-file.png</h4>
+                                <p>Designer</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>1.1MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/psd.svg" alt="">
+                                <h4 class="file-title">my-file.psd</h4>
+                                <p>Osama</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>15.1MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/pdf.svg" alt="">
+                                <h4 class="file-title">my-file.pdf</h4>
+                                <p>Elzero</p>
+                            </div>
+                            <div class="info">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/avi.svg" alt="">
+                                <h4 class="file-title">my-file.avi</h4>
+                                <p>Admin</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>12.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            <div class="icon">
+                                <img class="mt-15 mb-15" src="image/eps.svg" alt="">
+                                <h4 class="file-title">my-file.eps</h4>
+                                <p>Uploader</p>
+                            </div>
+                            <div class="info">
+                                <span>16/5/2021</span>
+                                <span>2.7MB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box files-stats">
+                        <h2>Files Statistics</h2>
+                        <div class="file">
+                            <i class="fa-regular fa-file-pdf fa-lg"
+                                style="background-color: rgb(0 117 255 / 20%); color: var(--blue-color);"></i>
+                            <div class="info">
+                                <span>PDF Files</span>
+                                <span>130</span>
+                            </div>
+                            <p>6.5GB</p>
+                        </div>
+                        <div class="file">
+                            <i class="fa-regular fa-images fa-lg"
+                                style="background-color: rgb(34 197 94 / 20%); color: var(--green-color);"></i>
+                            <div class="info">
+                                <span>Images</span>
+                                <span>115</span>
+                            </div>
+                            <p>3.5GB</p>
+                        </div>
+                        <div class="file">
+                            <i class="fa-regular fa-file-word fa-lg" style="background-color: rgb(244 67 54 / 20%);
+                                    color: var(--red-color);"></i>
+                            <div class="info">
+                                <span>Word Files</span>
+                                <span>110</span>
+                            </div>
+                            <p>3.2GB</p>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-file-csv fa-lg"
+                                style="background-color: rgb(245 158 11 / 20%); color: var(--orange-color);"></i>
+                            <div class="info">
+                                <span>CSV Files</span>
+                                <span>99</span>
+                            </div>
+                            <p>2.9GB</p>
+                        </div>
+                        <a class="upload" href="">
+                            <i class="fa-solid fa-angles-up"></i>
+                            Upload
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Files -->
+
+            <!-- Start Plans -->
+            <div class="section plans" data-title="Plans" id="plans">
+                <h1 class="section-title">Plans</h1>
+                <div class="container-plans">
+                    <div class="box plan">
+                        <div style="background-color: var(--green-color); outline: 3px solid var(--green-color);"
+                            class="offer">
+                            <h1>Free</h1>
+                            <div class="price">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                <p>0.00</p>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Access All Text Lessons</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Access All Videos Lessons</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Appear On Leaderboard</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-xmark fa-fw no"></i>
+                                <span>Browse Content Without Ads</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-xmark fa-fw no"></i>
+                                <span>Access All Assignments</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-xmark fa-fw no"></i>
+                                <span>Get Daily Prizes</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-xmark fa-fw no"></i>
+                                <span>Earn Certificate</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-xmark fa-fw no"></i>
+                                <span>1 GB Space For Hosting Files</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-xmark fa-fw no"></i>
+                                <span>Access Badge System</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                        </ul>
+                        <a href="" class="button" style="background-color: var(--green-color);">Join</a>
+                    </div>
+                    <div class="box plan">
+                        <div style="background-color: var(--blue-color); outline: 3px solid var(--blue-color);"
+                            class="offer">
+                            <h1>Basic</h1>
+                            <div class="price">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                <p>7.99</p>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Access All Text Lessons</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Access All Videos Lessons</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Appear On Leaderboard</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Browse Content Without Ads</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Access All Assignments</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Get Daily Prizes</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Earn Certificate</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-xmark fa-fw no"></i>
+                                <span>1 GB Space For Hosting Files</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-xmark fa-fw no"></i>
+                                <span>Access Badge System</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                        </ul>
+                        <a href="" class="button" style="background-color: var(--blue-color);">Join</a>
+                    </div>
+                    <div class="box plan">
+                        <div style="background-color: var(--orange-color); outline: 3px solid var(--orange-color);"
+                            class="offer">
+                            <h1>Premium</h1>
+                            <div class="price">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                <p>19.99</p>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Access All Text Lessons</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Access All Videos Lessons</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Appear On Leaderboard</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Browse Content Without Ads</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Access All Assignments</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Get Daily Prizes</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Earn Certificate</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-xmark fa-fw no"></i>
+                                <span>1 GB Space For Hosting Files</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check fa-fw yes"></i>
+                                <span>Access Badge System</span>
+                                <a href=""><i class="fa-solid fa-circle-info help"></i></a>
+                            </li>
+                        </ul>
+                        <!-- <a href="" class="button" style="background-color: var(--green-color);">Join</a> -->
+                        <p class="current">This Is Your Current Plan</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End Plans -->
+
+        </div>
+
+    </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
